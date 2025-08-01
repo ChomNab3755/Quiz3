@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  background-image:  url(/Image/green-biz-modified.png);
-    background-repeat: no-repeat;
-    background-size: cover 200px;
-    background-position: center;
-    background-attachment: fixed;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,7 +26,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.Name ,h1 ,p {
+.Name ,h1 ,.Green , .Techno{
   background: linear-gradient(90deg, #ff5ff2, #17d3b1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -123,7 +118,98 @@ button:hover {
   border: none;
   border-radius: 8px;
 }
-@media (max-width: 2000px) {
+.Green {
+    font-size: 34px;
+}
+.Techno {
+  font-size: 18px;
+}
+.Content {
+  display: flex;
+  align-items: center;
+  padding: 30px 100px;
+}
+.left {
+  width: 100%;
+  max-width: 600px;
+  height: 50%;
+  margin-top: 15%;
+}
+.btn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.btn-intouch {
+  width: 200px;
+  margin-top: 25px;
+  display: end;
+}
+.Text-intocuh {
+  text-align: start;
+  margin-top: 25px;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.content-Green {
+  font-size: 60px;
+  color: red;
+  color: #0b0;
+}
+.content-school {
+  font-size: 35px;
+  font-weight: bold ;
+}
+.main-content-green, .main-content-school {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.circle {
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+  width: 250px;
+  height: 250px;
+  background-color: #0b0;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+  z-index: -1;
+}
+.circle-left {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  width: 150px;
+  height: 150px;
+  background-color: #0b0;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  z-index: -2;
+  display: inline;
+}
+.teardrop {
+  position: absolute;
+  z-index: -1;
+  right: 250px;
+  top: 250px;
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  max-height: 350px;
+  background-color: #0b0;
+  border-top-left-radius: 100% 100%;
+  border-bottom-left-radius: 100% 100%;
+  border-bottom-right-radius: 100% 100%;
+}
+.gbt {
+  position: relative;
+  left: 250px;
+  top: 107.5px;
+  width: 100%;
+  max-width: 320px;
+}
+@media (max-width: 1000px) {
   body {
     font-size: 14px;
     width: 100%;
@@ -177,10 +263,3 @@ button:hover {
     font-size: 30px;
   }
 }
-
-
-
-
-
-
-
