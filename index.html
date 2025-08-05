@@ -14,29 +14,29 @@
   <body>
     <div class="navbar">
       <div class="Name">
-        <h1>
-          <p class="Green">Green Biz</p>
-          <p class="Techno">Techonology School</p>
-        </h1>
+        <h1 class="Green">Green Biz</h1>
+        <h2 class="Techno">Techonology School</h2>
       </div>
+
       <div class="link">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#abt_scroll">About</a></li>
           <li><a href="#">Short Course</a></li>
+          <li><a href="#">Contact</a></li>
           <li><a href="#">Owner</a></li>
         </ul>
       </div>
+
       <div class="search">
         <input
           type="color"
           class="color-picker"
-          oninput="document.body.style.background = `linear-gradient(to right, ${this.value}, #0b0)`"
+          oninput="document.body.style.background = `linear-gradient(to right, ${this.value}, #17d3b1)`"
         />
 
         <input type="search" class="SRH" placeholder="Search..." />
-        <button>Search</button>
+        <button class="srh">Search</button>
       </div>
     </div>
 
@@ -60,7 +60,7 @@
       </div>
       <div class="Item">
         <img
-          src="gbt-modified (1).png"
+          src="/Image/gbt-modified (1).png"
           alt="img"
           width="100px"
           class="gbt"
@@ -69,6 +69,41 @@
       <div class="circle"></div>
       <div class="circle-left"></div>
       <div class="teardrop"></div>
+      <hr />
+    </div>
+
+    <!--About page-->
+    <div class="abt" id="abt_scroll">
+      <h1 class="abt_txt">About Page</h1>
+
+      <div class="about_page">
+        <div class="left-side">
+          <img
+            src="/Image/gbt-modified (1).png"
+            alt="img"
+            width="100px"
+            class="about-gtb"
+          />
+        </div>
+        <div class="right">
+          <div class="title_abt">
+            <h1>GTB School</h1>
+            <h2 style="color: #0b0">Here with you since 2018</h2>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            debitis soluta veniam incidunt, asperiores numquam, a modi ab
+            doloremque atque velit laboriosam quos assumenda illum suscipit
+            dicta, doloribus laborum odio!
+          </p>
+          <div class="link_socail">
+            <a href="#"><img src="/Image/Fb-logo.png" alt="img" /></a>
+            <a href="#"><img src="/Image/telegram-4.png" alt="img" /></a>
+            <a href="#"><img src="/Image/link.webp" alt="img" /></a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
